@@ -1,4 +1,4 @@
-@extends('frontend.master_frontend')
+@extends('frontend.layouts.master_frontend')
 @section('content')
 
 <!-- banner section starts  -->
@@ -178,33 +178,3 @@
 <!-- posts section ends -->
 
 @endsection
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- custom js file link  -->
-<script src="{{ asset('frontend/assets/js/script.js') }}"></script>
-    
-</body>
-</html>
