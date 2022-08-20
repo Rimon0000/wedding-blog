@@ -1,17 +1,15 @@
 @extends('frontend.master_frontend')
 @section('content')
 
-<!-- header section ends -->
-
 <!-- banner section starts  -->
 
 <section class="banner" id="banner">
 
-    <div class="content">
-        <h3>explore the nature</h3>
+    <!-- <div class="content">
+        <h3>Our post page</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, laboriosam?</p>
         <a href="#" class="btn">my blogs</a>
-    </div>
+    </div> -->
 
 </section>
 
@@ -179,29 +177,7 @@
 
 <!-- posts section ends -->
 
-<!-- contact section starts  -->
-
-<section class="contact" id="contact">
-
-    <form action="">
-        <h3>contact me</h3>
-        <div class="inputBox">
-            <input type="text" placeholder="name">
-            <input type="email" placeholder="email">
-        </div>
-        <div class="inputBox">
-            <input type="number" placeholder="number">
-            <input type="text" placeholder="subject">
-        </div>
-        <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
-        <input type="submit" value="send message" class="btn">
-    </form>
-
-</section>
-
-<!-- contact section ends -->
 @endsection
-
 
 
 
