@@ -17,6 +17,11 @@ Route::get('/', function () {
     return view('frontend.index.index');
 })->name('home');
 
+Route::get('/contact', function () {
+    return view('frontend.contact.contact');
+})->name('my.contact');
+
+
 Route::get('/post', function () {
     return view('frontend.post.post');
 })->name('my.post');

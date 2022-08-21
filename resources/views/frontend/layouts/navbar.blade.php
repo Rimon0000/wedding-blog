@@ -4,8 +4,9 @@
 
     <nav class="navbar">
         <!-- <a href="#banner">banner</a> -->
+        <a href="{{ route('home') }}">Home</a>
         <a href="{{ route('my.post') }}">my posts</a>
-        <a href="#contact">contact me</a>
+        <a href="{{ route('my.contact') }}">contact me</a>
     </nav>
 
     <div class="icons">
